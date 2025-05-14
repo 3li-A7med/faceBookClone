@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="facebook.png">
+
 </head>
 
 <body>
@@ -38,13 +40,13 @@
         <div class="form-floating mb-3 flex-fill">
           <input type="text" class="form-control" id="floatingInput" placeholder="First Name">
           <label for="floatingInput">First Name</label>
-          <p class="d-none">What's your first name?</p>
+          <p class="text-danger pt-2 fs-"><i class="fa-solid fa-exclamation stop"></i> What's your first name?</p>
         </div>
 
         <div class="form-floating mb-3 flex-fill">
           <input type="text" class="form-control" id="floatingSurname" placeholder="Surname">
           <label for="floatingSurname">Surname</label>
-          <p class="d-none">What's your surname?</p>
+          <p class="text-danger pt-2 fs-"><i class="fa-solid fa-exclamation stop"></i> What's your surname?</p>
         </div>
       </div>
       <p class="fw-bold">
@@ -61,8 +63,6 @@
             <option>2</option>
             <option>3</option>
           </select>
-          <p class="">Select your date of birth. You can change who can see this later.
-</p>
         </div>
 
         <div class="col-4">
@@ -84,6 +84,10 @@
             <option>2023</option>
           </select>
         </div>
+                <p  class="text-danger pt-2 fs-
+"> <i class="fa-solid fa-exclamation stop"></i>Select your date of birth. You can change who can see this later.
+</p>
+
       </div>
 
       <p class="fw-bold">
@@ -97,12 +101,16 @@
             <option>male</option>
             <option>female</option>
           </select>
-          <p class="d-none">Select your date of birth. You can change who can see this later.
+          <p class="text-danger  pt-2"> Please choose a gender. You can change who can see this later.
 </p>
         </div>
       </div>
-      <!-- عاوز اظبط الاختيارات بالجافا اسكريبت + اجرب اعدل ع الاسركول اللي يبقي فيه شوية بوردر راديس + شوية الالوان والجبشتكنات -->
-
+      <!-- عاوز اظبط الاختيارات بالجافا اسكريبت + اجرب اعدل ع الاسركول اللي يبقي فيه شوية بوردر راديس + شوية الالوان والجبشتكنات 
+       
+      +
+      نظبط حوار البوردر اللبني ده في الرونج سبمت 😋
+      
+      -->
 
 
 
@@ -113,6 +121,7 @@
       <div class="form-floating mb-3 flex-fill">
         <input type="email" class="form-control" id="floatingInput" placeholder="   Mobile number or email address">
         <label for="floatingInput"> Mobile number or email address</label>
+  <p class="text-danger  pt-2"> <i class="fa-solid fa-exclamation stop"></i>Please enter a valid mobile number or email address.</p>
       </div>
             <div class="wrapper">
         <p class="text-secondary-emphasis">
@@ -127,9 +136,11 @@
 
       </p>
       <div class="form-floating mb-3 flex-fill">
-        <input type="email" class="form-control" id="floatingInput" placeholder="   Password">
+        <input type="password" class="form-control" id="floatingInput" placeholder="Password">
         <label for="floatingInput"> Password
 </label>
+<p class="text-danger">
+  <i class="fa-solid fa-exclamation stop"></i>Enter a combination of at least six numbers, letters and punctuation marks (such as ! and &).</p>
       </div>
 
 
